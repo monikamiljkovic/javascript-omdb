@@ -24,7 +24,7 @@ const getData = function () {
       <div>
       <div class='ratingBox'>
       <h6>IMDb RATING</h6>
-      <img src="/star.png" class='starImg rating' />
+      <img src="/img/star.png" class='starImg rating' />
       <h5 class='rating'>${data.imdbRating}</h5>
       </div>
       <div class='ratingBox'>
@@ -59,10 +59,3 @@ const getData = function () {
 getData();
 
 btnSearch.addEventListener("click", getData);
-
-// const show = function () {
-//   showMovie.classList.remove("hidden");
-// };
-// const close = function () {
-//   showMovie.classList.add("hidden");
-// };
